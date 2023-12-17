@@ -60,7 +60,6 @@ insert into employee (id, name, email, birthday) values (50, 'Mischa', 'mlinthea
 ```
 
 3. Sütunların her birine göre diğer sütunları güncelleyecek 5 adet UPDATE işlemi yapalım.
-```
 `
 UPDATE employee SET name = 'Mehmet', birthday = '2000-01-01', email = 'mehmet@aaa.com' WHERE id = 2
 `
@@ -77,10 +76,8 @@ UPDATE employee SET name = 'Mustafa', email = 'mustafa@abc.com', birthday = '200
 UPDATE employee SET name = 'XXX', email = 'xxx@yyy.com', birthday = '2002-02-22' WHERE name ILIKE 'D%' OR name ILIKE '%Y';
 `
 
-```
 
 4. Sütunların her birine göre ilgili satırı silecek 5 adet DELETE işlemi yapalım.
-```
 `
 DELETE FROM employee WHERE id = 47;
 `
@@ -100,4 +97,3 @@ DELETE FROM employee WHERE birthday = '2021-10-26';
 `
 DELETE FROM employee WHERE name ILIKE 'C%' AND name ILIKE '%a';;
 `
-```
