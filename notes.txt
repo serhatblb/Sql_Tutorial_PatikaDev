@@ -1,0 +1,96 @@
+NOTES
+
+1) SQL = Structured Query Language
+    SQL declarative bildirimsel bir programlama dilidir.
+
+2) PostgreSQL
+    Açık kaynak kodlu
+    Çeşitli veri tipi desteği
+    Güçlü dökümantasyon ve topluluk desteği
+    Tüm işletim sistemlerine uygunluk
+    ACID uyumluluk
+    Güvenlidir
+    Büyük verilerle kolay çalışma
+
+3) SELECT
+    Sorgu (Query) SQL komutlarını içeren sorgu cümleleridir.
+
+4) WHERE
+    SELECT komutu ile yaptığımız çalışmalarda bizler tüm sütunların veya ilgili sütunlarda bulunan verilerin tamamını çekmek isteriz. Çoğu durumda ise verilerin tamamını değil belirli koşulları sağlayan verileri görmek isteriz. Bunun için WHERE anahtar kelimesini kullanırız.
+
+5) BETWEEN - AND
+    Belirli aralıkta bulunan verileri sıralamak. Bunun BETWEEN ... AND yapısını kullanarak da yapabiliriz.
+
+6) IN
+    İstenilen değerleri liste haline geitip IN anahtar kelimesiyle kullanabiliriz.
+
+7) LIKE ve ILIKE
+    Burada kullanılan % karakteri sıfır, bir veya daha fazla karakteri temsil eder ve Wildcard olarak isimlendirilir. Bir diğer wildcard karakteri _ karakteridir ve bir karakteri temsil eder.
+
+8) DISTINCT ve COUNT
+    DISTINCT kaç farklı değer olduğunu, COUNT bu değerlerin sayisini verir.
+
+9) ORDER BY
+    ORDER BY anahtar kelimesi sayesinde bizler verilerimizi herhangi bir sütunda bulunan değerlere göre azalan veya artan bir şekilde sıralayabiliriz.
+    ASC-- artan, DESC-- azalan
+
+10) LIMIT ve OFFSET
+    Bazı durumlarda ise koşullarımızı sağlayan verilerin tamamını değil belirli sayıda olanlarını sıralamak isteriz, bunun için LIMIT anahtar kelimesini kullanırız.
+    Bazı durumlarda sonuç olarak gördüğümüz veri grubu içerisinden bazılarını "pass" geçmek isteriz. OFFSET
+
+11) Aggregate Fonksiyonlar - MIN, MAX, SUM, AVG
+    --SELECT AVG(length) FROM film;
+    --SELECT MAX(length) FROM film;
+
+12) GROUP BY
+    Burada şuna dikkat etmemiz gerekir, SELECT anahtar kelimesinde bulunan sütunların GROUP BY anahtar kelimesi içerisinde bulunması gerekir.
+    --SELECT rental_rate, MAX(length) FROM film GROUP BY rental_rate;
+
+13) HAVING
+    HAVING anahtar kelimesi sayesinde gruplandırılmış verilere koşullar ekleyebiliriz. Hemen aklımıza WHERE anahtar kelimesi geldi değil mi? Ancak WHERE anahtar kelimesi ile biz satır bazlı koşullar verebiliyoruz.
+    -- SELECT rental_rate, COUNT(*) FROM film GROUP BY rental_rate HAVING COUNT(*) > 325;
+
+14) ALIAS (AS)
+    AS anahtar kelimesi sayesinde sorgular sonucu oluşturduğumuz sanal tablo ve sütunlara geçici isimler verebiliriz.
+    -- SELECT <sütun_adı> AS <geçici_ad> FROM <tablo_adı>;
+    -- SELECT <sütun_adı>, <sütun_adı>... FROM <tablo_adı> AS <geçici_ad>;
+
+15) Tablo Oluşturmak ve Silmek (CREATE - DROP)
+    -- CREATE TABLE author (
+        id SERIAL PRIMARY KEY,
+        first_name VARCHAR(50) NOT NULL,
+        last_name VARCHAR(50) NOT NULL,
+        email VARCHAR(100)
+        birthday DATE
+        );
+    --DROP TABLE (IF EXISTS) <tablo_adı>;
+
+16) Tablo Verilerini Güncellemek (UPDATE - DELETE)
+    --    CREATE TABLE my_apps (
+                id INT,
+                name VARCHAR(50),
+                price VARCHAR(50)
+            );
+    INSERT INTO my_apps (id, name, price) values (1, 'Ronstring', '$0.96');
+    INSERT INTO my_apps (id, name, price) values (2, 'Duobam', '$3.44');
+
+    -- UPDATE my_apps SET name = 'Mayak', price = '$5.22' WHERE id = 2;
+
+    -- DELETE FROM my_apps WHERE name = 'Tresom';
+
+17) PRIMARY KEY - FOREIGN KEY
+    PRIMARY KEY
+        PRIMARY KEY bir tabloda bulunan veri sıralarını birbirinden ayırmamızı sağlayan bir kısıtlama (constraint) yapısıdır. O tabloda bulunan veri sıralarına ait bir "benzersiz tanımlayıcıdır".
+
+        Benzersiz (Unique) olmalıdır.
+        NULL değerine sahip olamaz.
+        Bir tabloda en fazla 1 tane bulunur.
+
+    FOREIGN KEY
+        FOREIGN KEY bir tabloda bulunan herhangi bir sütundaki verilerin genelde başka bir tablo sütununa referans vermesi durumudur, tablolar arası ilişki kurulmasını sağlar.
+
+        Bir tabloda birden fazla sütun FK olarak tanımlanabilir.
+        Aynı sütunun içerisinde aynı değerler bulunabilir.
+
+18) Veri Tipleri 
+    
