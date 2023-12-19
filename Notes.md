@@ -36,6 +36,421 @@ SELECT komutu ile yaptığımız çalışmalarda bizler tüm sütunların veya i
 > `SELECT title, replacement_cost FROM film WHERE replacement_cost = 14.99;`
 #
 
+####  BETWEEN - AND
+Belirli aralıkta bulunan verileri sıralamak. Bunun BETWEEN ... AND yapısını kullanarak da yapabiliriz.
+
+> **Kullanım şekli:**
+> `SELECT <sütun_adı>, <sütun_adı>, ... FROM <tablo_adı> WHERE <koşul> BETWEEN x AND x;`
+
+> **Örnek:**
+> ` SELECT * FROM film WHERE length BETWEEN 100 AND 140;         `
+#
+
+####  IN
+İstenilen değerleri liste haline geitip IN anahtar kelimesiyle kullanabiliriz.
+> **Kullanım şekli:**
+> `SELECT <sütun_adı>, <sütun_adı>, ... FROM <tablo_adı> WHERE <sütun_adı> IN (değer1, değer2, ...)`
+
+> **Örnek:**
+> `SELECT * FROM film WHERE length IN (30,60,90,120);          `
+#
+
+####  LIKE
+Açıklama
+> **Kullanım şekli:**
+> ``` ```
+
+> **Örnek:**
+> `          `
+#
+
+####  AAA
+Açıklama
+> **Kullanım şekli:**
+> `SELECT * FROM <tablo_adı> WHERE <koşul>;`
+
+> **Örnek:**
+> `          `
+#
+
+####  AAA
+Açıklama
+> **Kullanım şekli:**
+> `SELECT * FROM <tablo_adı> WHERE <koşul>;`
+
+> **Örnek:**
+> `          `
+#
+
+####  AAA
+Açıklama
+> **Kullanım şekli:**
+> `SELECT * FROM <tablo_adı> WHERE <koşul>;`
+
+> **Örnek:**
+> `          `
+#
+
+####  AAA
+Açıklama
+> **Kullanım şekli:**
+> `SELECT * FROM <tablo_adı> WHERE <koşul>;`
+
+> **Örnek:**
+> `          `
+#
+
+####  AAA
+Açıklama
+> **Kullanım şekli:**
+> `SELECT * FROM <tablo_adı> WHERE <koşul>;`
+
+> **Örnek:**
+> `          `
+#
+
+####  AAA
+Açıklama
+> **Kullanım şekli:**
+> `SELECT * FROM <tablo_adı> WHERE <koşul>;`
+
+> **Örnek:**
+> `          `
+#
+
+####  AAA
+Açıklama
+> **Kullanım şekli:**
+> `SELECT * FROM <tablo_adı> WHERE <koşul>;`
+
+> **Örnek:**
+> `          `
+#
+
+####  AAA
+Açıklama
+> **Kullanım şekli:**
+> `SELECT * FROM <tablo_adı> WHERE <koşul>;`
+
+> **Örnek:**
+> `          `
+#
+
+####  AAA
+Açıklama
+> **Kullanım şekli:**
+> `SELECT * FROM <tablo_adı> WHERE <koşul>;`
+
+> **Örnek:**
+> `          `
+#
+
+####  AAA
+Açıklama
+> **Kullanım şekli:**
+> `SELECT * FROM <tablo_adı> WHERE <koşul>;`
+
+> **Örnek:**
+> `          `
+#
+
+####  AAA
+Açıklama
+> **Kullanım şekli:**
+> `SELECT * FROM <tablo_adı> WHERE <koşul>;`
+
+> **Örnek:**
+> `          `
+#
+
+####  AAA
+Açıklama
+> **Kullanım şekli:**
+> `SELECT * FROM <tablo_adı> WHERE <koşul>;`
+
+> **Örnek:**
+> `          `
+#
+
+####  AAA
+Açıklama
+> **Kullanım şekli:**
+> `SELECT * FROM <tablo_adı> WHERE <koşul>;`
+
+> **Örnek:**
+> `          `
+#
+
+####  AAA
+Açıklama
+> **Kullanım şekli:**
+> `SELECT * FROM <tablo_adı> WHERE <koşul>;`
+
+> **Örnek:**
+> `          `
+#
+
+####  AAA
+Açıklama
+> **Kullanım şekli:**
+> `SELECT * FROM <tablo_adı> WHERE <koşul>;`
+
+> **Örnek:**
+> `          `
+#
+
+####  AAA
+Açıklama
+> **Kullanım şekli:**
+> `SELECT * FROM <tablo_adı> WHERE <koşul>;`
+
+> **Örnek:**
+> `          `
+#
+
+####  AAA
+Açıklama
+> **Kullanım şekli:**
+> `SELECT * FROM <tablo_adı> WHERE <koşul>;`
+
+> **Örnek:**
+> `          `
+#
+
+####  AAA
+Açıklama
+> **Kullanım şekli:**
+> `SELECT * FROM <tablo_adı> WHERE <koşul>;`
+
+> **Örnek:**
+> `          `
+#
+
+####  AAA
+Açıklama
+> **Kullanım şekli:**
+> `SELECT * FROM <tablo_adı> WHERE <koşul>;`
+
+> **Örnek:**
+> `          `
+#
+
+####  AAA
+Açıklama
+> **Kullanım şekli:**
+> `SELECT * FROM <tablo_adı> WHERE <koşul>;`
+
+> **Örnek:**
+> `          `
+#
+
+####  AAA
+Açıklama
+> **Kullanım şekli:**
+> `SELECT * FROM <tablo_adı> WHERE <koşul>;`
+
+> **Örnek:**
+> `          `
+#
+
+####  AAA
+Açıklama
+> **Kullanım şekli:**
+> `SELECT * FROM <tablo_adı> WHERE <koşul>;`
+
+> **Örnek:**
+> `          `
+#
+
+####  AAA
+Açıklama
+> **Kullanım şekli:**
+> `SELECT * FROM <tablo_adı> WHERE <koşul>;`
+
+> **Örnek:**
+> `          `
+#
+
+####  AAA
+Açıklama
+> **Kullanım şekli:**
+> `SELECT * FROM <tablo_adı> WHERE <koşul>;`
+
+> **Örnek:**
+> `          `
+#
+
+####  AAA
+Açıklama
+> **Kullanım şekli:**
+> `SELECT * FROM <tablo_adı> WHERE <koşul>;`
+
+> **Örnek:**
+> `          `
+#
+
+####  AAA
+Açıklama
+> **Kullanım şekli:**
+> `SELECT * FROM <tablo_adı> WHERE <koşul>;`
+
+> **Örnek:**
+> `          `
+#
+
+####  AAA
+Açıklama
+> **Kullanım şekli:**
+> `SELECT * FROM <tablo_adı> WHERE <koşul>;`
+
+> **Örnek:**
+> `          `
+#
+
+####  AAA
+Açıklama
+> **Kullanım şekli:**
+> `SELECT * FROM <tablo_adı> WHERE <koşul>;`
+
+> **Örnek:**
+> `          `
+#
+
+####  AAA
+Açıklama
+> **Kullanım şekli:**
+> `SELECT * FROM <tablo_adı> WHERE <koşul>;`
+
+> **Örnek:**
+> `          `
+#
+
+####  AAA
+Açıklama
+> **Kullanım şekli:**
+> `SELECT * FROM <tablo_adı> WHERE <koşul>;`
+
+> **Örnek:**
+> `          `
+#
+
+####  AAA
+Açıklama
+> **Kullanım şekli:**
+> `SELECT * FROM <tablo_adı> WHERE <koşul>;`
+
+> **Örnek:**
+> `          `
+#
+
+####  AAA
+Açıklama
+> **Kullanım şekli:**
+> `SELECT * FROM <tablo_adı> WHERE <koşul>;`
+
+> **Örnek:**
+> `          `
+#
+
+####  AAA
+Açıklama
+> **Kullanım şekli:**
+> `SELECT * FROM <tablo_adı> WHERE <koşul>;`
+
+> **Örnek:**
+> `          `
+#
+
+####  AAA
+Açıklama
+> **Kullanım şekli:**
+> `SELECT * FROM <tablo_adı> WHERE <koşul>;`
+
+> **Örnek:**
+> `          `
+#
+
+####  AAA
+Açıklama
+> **Kullanım şekli:**
+> `SELECT * FROM <tablo_adı> WHERE <koşul>;`
+
+> **Örnek:**
+> `          `
+#
+
+####  AAA
+Açıklama
+> **Kullanım şekli:**
+> `SELECT * FROM <tablo_adı> WHERE <koşul>;`
+
+> **Örnek:**
+> `          `
+#
+
+####  AAA
+Açıklama
+> **Kullanım şekli:**
+> `SELECT * FROM <tablo_adı> WHERE <koşul>;`
+
+> **Örnek:**
+> `          `
+#
+
+####  AAA
+Açıklama
+> **Kullanım şekli:**
+> `SELECT * FROM <tablo_adı> WHERE <koşul>;`
+
+> **Örnek:**
+> `          `
+#
+
+####  AAA
+Açıklama
+> **Kullanım şekli:**
+> `SELECT * FROM <tablo_adı> WHERE <koşul>;`
+
+> **Örnek:**
+> `          `
+#
+
+####  AAA
+Açıklama
+> **Kullanım şekli:**
+> `SELECT * FROM <tablo_adı> WHERE <koşul>;`
+
+> **Örnek:**
+> `          `
+#
+
+####  AAA
+Açıklama
+> **Kullanım şekli:**
+> `SELECT * FROM <tablo_adı> WHERE <koşul>;`
+
+> **Örnek:**
+> `          `
+#
+
+####  AAA
+Açıklama
+> **Kullanım şekli:**
+> `SELECT * FROM <tablo_adı> WHERE <koşul>;`
+
+> **Örnek:**
+> `          `
+#
+
+####  AAA
+Açıklama
+> **Kullanım şekli:**
+> `SELECT * FROM <tablo_adı> WHERE <koşul>;`
+
+> **Örnek:**
+> `          `
+#
+
 ####  AAA
 Açıklama
 > **Kullanım şekli:**
